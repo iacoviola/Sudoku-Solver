@@ -13,10 +13,11 @@ SOURCES += \
     solver.cpp
 
 HEADERS += \
-    solver.h
+    solver.h \
+    sudoku.h
 
 FORMS += \
-    solver.ui
+    solver.ui \
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
