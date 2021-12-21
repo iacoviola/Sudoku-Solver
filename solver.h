@@ -2,6 +2,9 @@
 #define SOLVER_H
 
 #include <QMainWindow>
+#include <QPushButton>
+#include <QMessageBox>
+#include <QLineEdit>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class Solver; }
@@ -17,5 +20,7 @@ public:
 
 private:
     Ui::Solver *ui;
+private slots:
+    void SolveButtonPressed();
 };
 #endif // SOLVER_H
